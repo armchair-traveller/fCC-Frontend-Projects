@@ -35,7 +35,7 @@ const QuoteBox = () => {
         "So long as victory can be attained, stupid haste is preferable to clever dilatoriness.",
         "Chang Yu, The Art of War"
       ],
-      ["Knowledge is crystallized wisdom"],
+      ["Knowledge is crystallized wisdom."],
       [
         "It's better to use a straight rod than to seek wrong.",
         "Jian Ziya, Investiture of the Gods"
@@ -102,8 +102,9 @@ const QuoteBox = () => {
       id="quote-box"
       variant="outlined"
       style={{
-        maxWidth: "70vw",
-        margin: "auto",
+        maxWidth: "85vw",
+        width: "700px",
+        margin: "0 auto",
         padding: "10px"
       }}
     >
