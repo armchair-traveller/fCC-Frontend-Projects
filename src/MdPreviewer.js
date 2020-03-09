@@ -41,7 +41,7 @@ And twice the ferociousness
         id="preview"
         variant="outlined"
         dangerouslySetInnerHTML={(function markdownToHTML() {
-          var md = new Remarkable();
+          var md = new Remarkable({ breaks: true });
           return { __html: md.render(input) };
         })()}
       />

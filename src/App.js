@@ -8,7 +8,10 @@ import MdPreviewer from "./MdPreviewer";
 const App = () => {
   return (
     <React.StrictMode>
-      <div style={{ margin: "0 auto", textAlign: "center" }}>
+      <div
+        className="center-contents"
+        style={{ margin: "0 auto", textAlign: "center" }}
+      >
         <Router>
           <Redirect from="/" to="/quotes" />
           <QuoteBox path="/quotes" />

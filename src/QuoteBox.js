@@ -13,7 +13,7 @@ const QuoteBox = () => {
         "War And Peace"
       ],
       [
-        "If god gives you something but you don't take it, then you only have yourself to blame"
+        "If god gives you something but you don't take it, then you only have yourself to blame."
       ],
       [
         "Great men are not born great, they grow great...",
@@ -37,7 +37,7 @@ const QuoteBox = () => {
       ],
       ["Knowledge is crystallized wisdom"],
       [
-        "It's better to use a straight rod than to seek wrong",
+        "It's better to use a straight rod than to seek wrong.",
         "Jian Ziya, Investiture of the Gods"
       ],
       ["All great ideas take a whole generation before they're implemented."],
@@ -104,8 +104,7 @@ const QuoteBox = () => {
       style={{
         maxWidth: "70vw",
         margin: "auto",
-        padding: "10px",
-        marginTop: "25vh"
+        padding: "10px"
       }}
     >
       <FormatQuote />
