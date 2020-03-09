@@ -10,7 +10,13 @@
   "browserslist": [
     "last 2 Chrome versions"
   ],
+  "name": "frontend-projects",
+  "version": "1.0.0",
   "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
   "dependencies": {
     "@material-ui/core": "^4.9.4",
     "@material-ui/icons": "^4.9.1",
@@ -30,19 +36,5 @@
     "eslint-plugin-react-hooks": "^2.5.0",
     "parcel-bundler": "^1.12.4",
     "prettier": "^1.19.1"
-  },
-  "name": "fCC-Frontend-Projects",
-  "description": "Frontend library portion of freeCodeCamp curriculum in React, merged as an SPA.  \r  Additional basic configuration added for improving code quality.  \r  There may be a benefit in making it all an SPA, perhaps reduced configuration overhead.",
-  "version": "1.0.0",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/armchair-traveller/fCC-Frontend-Projects.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/armchair-traveller/fCC-Frontend-Projects/issues"
-  },
-  "homepage": "https://github.com/armchair-traveller/fCC-Frontend-Projects#readme"
+  }
 }
