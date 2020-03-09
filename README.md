@@ -10,7 +10,7 @@
 - Material-UI - UI framework. Surfaces, buttons, & icons.
 
 <details>
- <summary>Dev Dependencies</summary>
+ <summary>Dev Tooling</summary>
 
 - Parcel Bundler
 - ESLint - configured for React (Hooks, JSX a11y) & Prettier.
