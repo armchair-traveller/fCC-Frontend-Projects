@@ -21,7 +21,7 @@
 <details>
  <summary>Contextual Dependencies</summary>
  
- ## Markdown Previewer:  
+ ## Markdown Previewer
  - Remarkable - used for markdown parsing (set with `dangerouslySetInnerHTML`).
 </details>
 
