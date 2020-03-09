@@ -10,7 +10,7 @@
   "browserslist": [
     "last 2 Chrome versions"
   ],
-  "name": "frontend-projects",
+  "name": "fcc-frontend-projects",
   "version": "1.0.0",
   "main": "index.js",
   "keywords": [],
