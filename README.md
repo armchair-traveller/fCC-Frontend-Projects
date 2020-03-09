@@ -1,18 +1,17 @@
 # fCC-Frontend-Projects
-
-Frontend library portion of freeCodeCamp curriculum in React, merged as an SPA.  
+ Frontend library portion of freeCodeCamp curriculum in React, merged as an SPA.  
  Additional basic configuration added for improving code quality.  
  There may be a benefit in making it all an SPA, perhaps reduced configuration overhead.
 
 # Basic Tech Stack
 
-- Parcel Bundler
 - React: Hooks, DOM
 - Reach Router - SPA stuff
 - Material-UI - UI framework. Surfaces, buttons, & icons.
 
-## Dev Tooling
+## Dev Dependencies
 
+- Parcel Bundler
 - ESLint - configured for React (Hooks, JSX a11y) & Prettier.
 - Prettier - formatter
 - VSCode - IDE
