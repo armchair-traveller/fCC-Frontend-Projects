@@ -25,10 +25,10 @@
  - Remarkable - used for markdown parsing (set with `dangerouslySetInnerHTML`).
 </details>
 
-# Quote Machine
+# Random Quote Machine
 
-Quotes are hard-coded in and randomized through a function.
+Quotes are hard-coded into an array and randomized through a function.
 
 # Markdown Previewer
 
-I don't know what I was thinking when I was writing the initial text, but it passed the test. Don't judge.
+I don't know what I was thinking when I was writing the initial text, but it passed all tests. Don't judge.
