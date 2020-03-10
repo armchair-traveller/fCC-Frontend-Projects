@@ -1,16 +1,27 @@
 import React from "react";
 import { Link } from "@reach/router";
 import { Button } from "@material-ui/core";
+import { GitHub, ArrowDownward } from "@material-ui/icons";
 
 const Footer = () => {
   return (
     <footer>
+      <a href="https://github.com/armchair-traveller/fCC-Frontend-Projects">
+        <Button>
+          <GitHub />
+        </Button>
+      </a>
+
       <Link to="/quotes">
         <Button>Quotes</Button>
       </Link>
 
       <Link to="/previewer">
-        <Button>Markdown Previewer</Button>
+        <Button>
+          M
+          <ArrowDownward style={{ fontSize: 17 }} />
+          Previewer
+        </Button>
       </Link>
     </footer>
   );
