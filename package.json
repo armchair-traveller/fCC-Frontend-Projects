@@ -17,7 +17,7 @@
   "main": "index.js",
   "keywords": [],
   "author": "",
-  "license": "Apache",
+  "license": "Apache-2.0",
   "description": "",
   "dependencies": {
     "@material-ui/core": "^4.9.4",
