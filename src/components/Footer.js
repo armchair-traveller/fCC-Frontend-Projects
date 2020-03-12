@@ -12,7 +12,7 @@ const Footer = () => {
         </Button>
       </a>
 
-      <Link to="/">
+      <Link to="/quotes">
         <Button>Quotes</Button>
       </Link>
 

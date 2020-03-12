@@ -1,5 +1,6 @@
 import React from "react";
-import { Router } from "@reach/router";
+import { Helmet } from "react-helmet";
+import { Router, Redirect } from "@reach/router";
 import QuoteBox from "../components/QuoteBox";
 import MdPreviewer from "../components/MdPreviewer";
 import Footer from "../components/Footer";
@@ -10,15 +11,17 @@ const App = () => (
       className="center-contents"
       style={{ margin: "0 auto", textAlign: "center" }}
     >
-      <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
-      />
-      <link rel="stylesheet" href="../migrate TODO/style.css" />
-      {/* <QuoteBox path="/quotes" /> */}
-      {/* <Redirect from="/" to="/quotes" /> */}
+      <Helmet>
+        <meta charset="UTF-8" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1"
+        />
+        <title>Frontend Projects</title>
+      </Helmet>
       <Router>
-        <QuoteBox path="/" />
+        <Redirect from="/" to="/quotes" />
+        <QuoteBox path="/quotes" />
         <MdPreviewer path="previewer" />
       </Router>
       <Footer />
