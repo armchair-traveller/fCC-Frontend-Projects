@@ -20,7 +20,7 @@ const App = () => (
         <title>Frontend Projects</title>
       </Helmet>
       <Router>
-        <Redirect path="/" from="/" to="/quotes" />
+        <Redirect path="/" from="/" to="/quotes" noThrow />
         <QuoteBox path="/quotes" />
         <MdPreviewer path="/previewer" />
       </Router>
