@@ -12,7 +12,8 @@ const Footer = () => {
         </Button>
       </a>
 
-      <Link to="/quotes">
+      {/* <Link to="/quotes"> */}
+      <Link to="/">
         <Button>Quotes</Button>
       </Link>
 

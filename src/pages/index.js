@@ -1,6 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import { Router, Redirect } from "@reach/router";
+import { Router } from "@reach/router";
 import QuoteBox from "../components/QuoteBox";
 import MdPreviewer from "../components/MdPreviewer";
 import Footer from "../components/Footer";
@@ -20,8 +20,9 @@ const App = () => (
         <title>Frontend Projects</title>
       </Helmet>
       <Router>
-        <Redirect from="/" to="/quotes" />
-        <QuoteBox path="/quotes" />
+        {/* <Redirect from="/" to="/quotes" /> */}
+        {/* <QuoteBox path="/quotes" /> */}
+        <QuoteBox path="/" />
         <MdPreviewer path="previewer" />
       </Router>
       <Footer />
