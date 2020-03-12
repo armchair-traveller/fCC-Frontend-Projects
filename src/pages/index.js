@@ -23,7 +23,7 @@ const App = () => (
         {/* <Redirect from="/" to="/quotes" /> */}
         {/* <QuoteBox path="/quotes" /> */}
         <QuoteBox path="/" />
-        <MdPreviewer path="previewer" />
+        <MdPreviewer path="/previewer" />
       </Router>
       <Footer />
       <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
