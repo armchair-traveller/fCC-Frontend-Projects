@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Button, Card } from "@material-ui/core";
 import { Twitter, ChatBubbleOutline, FormatQuote } from "@material-ui/icons";
+import { css } from "@emotion/core";
 
 const QuoteBox = () => {
   const [quotes, setQuotes] = useState(randomQuotes());
@@ -101,12 +102,12 @@ const QuoteBox = () => {
     <Card
       id="quote-box"
       variant="outlined"
-      style={{
-        maxWidth: "85vw",
-        width: "700px",
-        margin: "0 auto",
-        padding: "10px"
-      }}
+      css={css`
+        max-width: 85vw;
+        width: 700px;
+        margin: 0 auto;
+        padding: 10px;
+      `}
     >
       <FormatQuote />
       <h1 id="text">{quote}</h1>

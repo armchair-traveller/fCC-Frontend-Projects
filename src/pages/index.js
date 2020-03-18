@@ -4,12 +4,16 @@ import { Router, Redirect } from "@reach/router";
 import QuoteBox from "../components/QuoteBox";
 import MdPreviewer from "../components/MdPreviewer";
 import Footer from "../components/Footer";
+import { css } from "@emotion/core";
 
 const App = () => (
   <React.StrictMode>
     <div
       className="center-contents"
-      style={{ margin: "0 auto", textAlign: "center" }}
+      css={css`
+        margin: 0 auto;
+        text-align: center;
+      `}
     >
       <Helmet>
         <meta charset="UTF-8" />

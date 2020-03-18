@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "@reach/router";
 import { Button } from "@material-ui/core";
 import { GitHub, ArrowDownward } from "@material-ui/icons";
+import { css } from "@emotion/core";
 
 const Footer = () => {
   return (
@@ -19,7 +20,11 @@ const Footer = () => {
       <Link to="/previewer">
         <Button>
           M
-          <ArrowDownward style={{ fontSize: 17 }} />
+          <ArrowDownward
+            css={css`
+              font-size: 17;
+            `}
+          />
           Previewer
         </Button>
       </Link>

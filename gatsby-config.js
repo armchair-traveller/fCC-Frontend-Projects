@@ -1,4 +1,3 @@
-{
-  // eslint-disable-next-line no-unused-labels
-  plugins: [`gatsby-plugin-react-helmet`];
-}
+module.exports = {
+  plugins: [`gatsby-plugin-react-helmet`, `gatsby-plugin-emotion`]
+};
