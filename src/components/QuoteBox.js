@@ -3,7 +3,7 @@ import { Button, Card } from "@material-ui/core";
 import { Twitter, ChatBubbleOutline, FormatQuote } from "@material-ui/icons";
 import { css } from "@emotion/core";
 
-const QuoteBox = () => {
+export default function QuoteBox() {
   const [quotes, setQuotes] = useState(randomQuotes());
 
   var [[[quote, author = "Anonymous"]]] = quotes;
@@ -139,6 +139,4 @@ const QuoteBox = () => {
       </div>
     </Card>
   );
-};
-
-export default QuoteBox;
+}

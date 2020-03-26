@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Remarkable } from "remarkable";
 import { Paper } from "@material-ui/core";
 
-const MdPreviewer = () => {
+export default function MdPreviewer() {
   var [input, setInput] = useState(`
 # my dog is
 
@@ -31,7 +31,7 @@ And twice the ferociousness
         id="editor"
         cols="30"
         rows="10"
-        onChange={e => {
+        onChange={(e) => {
           setInput(e.target.value);
         }}
         value={input}
@@ -47,6 +47,4 @@ And twice the ferociousness
       />
     </div>
   );
-};
-
-export default MdPreviewer;
+}
