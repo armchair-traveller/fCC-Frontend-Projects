@@ -23,7 +23,6 @@ export default function App() {
             content="width=device-width, initial-scale=1.0, minimum-scale=1"
           />
           <title>Frontend Projects</title>
-          <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
         </Helmet>
         <Router>
           <Redirect path="/" from="/" to="/quotes" noThrow />
